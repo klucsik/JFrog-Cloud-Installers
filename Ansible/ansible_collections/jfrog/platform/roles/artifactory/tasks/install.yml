@@ -199,7 +199,7 @@
 
 - name: Make sure artifactory is up and running
   uri:
-    url: http://127.0.0.1:8082/router/api/v1/system/health
+    url: http://127.0.0.1:8081/router/api/v1/system/health
     timeout: 130
     status_code: 200
   register: result
